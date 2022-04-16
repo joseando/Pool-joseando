@@ -1,0 +1,40 @@
+pool_info:
+  default_res: Pool.joseando.net
+  name: Pool.joseando.net
+  logo_url: https://www.chia.net/img/chia_logo.svg
+  description: La Pool de Chia 100% ESPAÑOLA y con el mejor Soporte.
+welcome_message: "Bienvenido al Ecosistema de JOSEANDO.NET!"
+pool_fee: 0.01
+block_claim_fee: 0
+pool_url: https://pool.joseando.net
+min_difficulty: 10
+default_difficulty: 10
+default_target_address: xch18cs70hkkxe4pt2q22qkmvuk9dfpym5dxp5x33hrmpyaw6wy6u9nsd4z50q
+pool_fee_address: xch1qp7385zccgxzpf22rg4udu844enwek6ha5x9pa8qqrkkzn5twz9q8eqn83
+wallet_fingerprint: 2871237741
+authentication_token_timeout: 5
+wallet_id: 1
+node_rpc_port: 8555
+wallet_rpc_port: 9256
+partial_time_limit: 25
+partial_confirmation_delay: 300
+scan_start_height: 1000
+collect_pool_rewards_interval: 600
+confirmation_security_threshold: 32
+payment_interval: 600
+max_additions_per_transaction: 400
+number_of_partials_target: 300
+time_target: 86400
+relative_lock_height: 32
+logging:
+  log_path: /var/log/chia
+  log_filename: pool-server.log
+  log_level: INFO
+  log_maxfilesrotation: 7
+  log_stdout: false
+server:
+  server_host: 127.0.0.1
+  server_port: 80
+  server_use_ssl: false
+  server_ssl_crt: config/ssl/domain/domain_srv.crt
+  server_ssl_key: config/ssl/domain/domain_srv.key
